@@ -6,6 +6,7 @@ Since Naver has strict security and anti-scraping protections, the scraper:
 - Does not send requests repeatedly
 - Does not scrape many products in a short time
 - Treats blocking and errors as normal situations
+  
 If an error such as HTTP 429 (Too Many Requests) occurs, the scraper stops and returns a clear error message to the client.
 The main goal of this scraper is to demonstrate how scraping works and how to handle failures, not to force success at all costs.
 
