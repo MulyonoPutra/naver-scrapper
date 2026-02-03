@@ -1,0 +1,1 @@
+// ESLint is disabled for this project
